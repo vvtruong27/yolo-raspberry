@@ -26,21 +26,6 @@ wheels/
 .installed.cfg
 *.egg
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
-
-# PyTorch
-*.pth
-*.pt
-
-# Model files (large files)
-*.bin
-*.param
-*.onnx
-*.engine
-*.trt
-
 # Logs and outputs
 *.log
 logs/
@@ -49,7 +34,6 @@ outputs/
 results/
 
 # Images and videos
-*.jpg
 *.jpeg
 *.png
 *.gif

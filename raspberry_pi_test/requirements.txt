@@ -1,0 +1,12 @@
+# Core ML/AI dependencies
+ultralytics>=8.0.0
+torch>=2.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+
+# Data processing
+numpy>=1.24.0
+
+# Image processing
+Pillow>=10.0.0 

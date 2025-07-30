@@ -10,13 +10,13 @@ from ultralytics import YOLO
 def main():
     # Load model NCNN
     print("🔄 Đang load model NCNN...")
-    model = YOLO("weights/best_ncnn_model", task='detect')
+    model = YOLO("../weights/best_ncnn_model", task='detect')
     print("✅ Model đã load xong!")
     
     # Mở camera
     cap = cv2.VideoCapture(0)
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 640)
     
     if not cap.isOpened():
         print("❌ Không thể mở camera!")
