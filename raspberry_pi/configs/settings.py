@@ -1,5 +1,5 @@
 """
-Cấu hình chính cho hệ thống Raspberry Pi 5
+Cấu hình cho hệ thống Raspberry Pi 5
 """
 
 # Camera settings
