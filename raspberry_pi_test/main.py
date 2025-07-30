@@ -15,7 +15,7 @@ from ultralytics import YOLO
 class RealtimeDataCollector:
     def __init__(self):
         # Cấu hình
-        self.model_path = "../../weights/best.pt"  # hoặc best.torchscript
+        self.model_path = "../weights/best.pt"  # hoặc best.torchscript
         self.confidence_threshold = 0.25
         self.save_interval = 2.0  # Lưu ảnh mỗi 2 giây khi detect
         
